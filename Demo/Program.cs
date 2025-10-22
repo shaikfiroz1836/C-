@@ -10,7 +10,7 @@ namespace Demo
         {
             Program p = new Program();
             Console.WriteLine("value of i: " + p.i);
-            Console.WriteLine("value of s: " + p.s);
+            Console.WriteLine("value of s: " + (p.s ?? "null"));
             Console.WriteLine("value of b: " + p.b);
             Console.WriteLine();
         }
