@@ -8,6 +8,7 @@
     <StartupObject>Demo.ParameterConDemo</StartupObject>
 	  <StartupObject>Demo.CopyConDemo</StartupObject>
 	  <StartupObject>Demo.StaticConDemo</StartupObject>
+	  <StartupObject>Demo.Test</StartupObject>
 
   </PropertyGroup>
 
