@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo
 {
-    internal class CopyConDemo
+    public class CopyConDemo
     {
         int x;
         public CopyConDemo(int i)
