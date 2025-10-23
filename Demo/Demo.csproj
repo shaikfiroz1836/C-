@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <StartupObject>Demo.ParameterConDemo</StartupObject>
 	  <StartupObject>Demo.CopyConDemo</StartupObject>
+	  <StartupObject>Demo.StaticConDemo</StartupObject>
 
   </PropertyGroup>
 
