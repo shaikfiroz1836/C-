@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>Demo.ParameterConDemo</StartupObject>
+	  <StartupObject>Demo.CopyConDemo</StartupObject>
+
   </PropertyGroup>
 
 </Project>
