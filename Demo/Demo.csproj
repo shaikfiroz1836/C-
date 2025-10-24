@@ -9,6 +9,7 @@
 	  <StartupObject>Demo.CopyConDemo</StartupObject>
 	  <StartupObject>Demo.StaticConDemo</StartupObject>
 	  <StartupObject>Demo.Test</StartupObject>
+	  <StartupObject>Demo.ConstructorDemo</StartupObject>
 
   </PropertyGroup>
 
