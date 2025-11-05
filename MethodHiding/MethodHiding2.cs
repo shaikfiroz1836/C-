@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MethodHiding
+namespace MethodHiding2
 {
-    class ParentClass
+    class MethodHiding2
     {
         public virtual void Test1()
         {
@@ -13,7 +13,7 @@ namespace MethodHiding
             Console.WriteLine("ParentClass Test2");
         }
     }
-    class ChildClass : ParentClass 
+    class ChildClass : MethodHiding2
     {
         public override void Test1()
         {
@@ -23,12 +23,22 @@ namespace MethodHiding
         {
             Console.WriteLine("ChildClass Test2");  // Method Hiding by using new keyword
         }
+        public void ParentTest1()
+        {
+            base.Test1();
+        }
+        public void ParentTest2()
+        {
+            base.Test2();
+        }
         static void Main()
         {
-            ParentClass p = new ParentClass();
-            p.Test1();
-            p.Test2();
+            //MethodHiding2 m = new MethodHiding2();
+            //m.Test1();
+            //m.Test2();
             ChildClass c = new ChildClass();
+            c.ParentTest1();
+            c.ParentTest2();
             c.Test1();
             c.Test2();
         }
